@@ -1,0 +1,11 @@
+#This file specifies the details of the parameters passed in qa.py task
+defaults:
+  - _self_   
+  - simulation: default
+save_dir: './'  # Default directory for saving outputs
+save_name: 'qa_squad'
+subset: 'validation' #Used to generate validation.json
+#Template to generate synthetic variable tracing text
+template: "Answer the question based on the given documents. Only give me the answer and do not output any other words.\n\nThe following are given documents.\n\n{context}\n\nAnswer the question based on the given documents. Only give me the answer and do not output any other words.\n\nQuestion: {query} Answer:"
+random_seed: 42  # Seed for random number generation ensures reproducibility
+remove_newline_tab: false

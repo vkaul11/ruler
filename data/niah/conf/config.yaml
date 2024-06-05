@@ -1,0 +1,21 @@
+#This file specifies the details of the parameters passed in niah.py task
+defaults:
+  - _self_   
+  - simulation: default
+save_dir: './'  # Default directory for saving outputs
+save_name: 'niah_multiquery'
+subset: 'validation' #Used to generate validation.json
+#Template to generate synthetic niah text
+template: "Some special magic {type_needle_v} are hidden within the following text. Make sure to memorize it. I will quiz you about the {type_needle_v} afterwards.\n{context}\nWhat are all the special magic {type_needle_v} for {query} mentioned in the provided text? The special magic {type_needle_v} for {query} mentioned in the provided text are"
+random_seed: 42  # Seed for random number generation ensures reproducibility
+remove_newline_tab: false
+#Specified the task complexity of the niah task 
+task_complexity:
+  num_needle_k: 1
+  num_needle_v: 1
+  num_needle_q: 4
+  type_haystack: 'essay'  
+  type_needle_k: 'words'  
+  type_needle_v: 'numbers'  
+
+

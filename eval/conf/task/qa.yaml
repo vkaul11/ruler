@@ -1,0 +1,4 @@
+input_file_path: '../data/qa/qa_squad/validation.jsonl'
+output_file: 'predictions_qa_squad.jsonl'
+error_file: 'errors_qa_squad.jsonl'
+metric_type: 'partial'
