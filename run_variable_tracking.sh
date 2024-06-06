@@ -6,7 +6,7 @@ cd data/variable_tracking
 python variable_tracking.py
 
 # Now navigate to the eval directory to run metrics
-cd ../../eval"
+cd ../../eval
 
 # Execute the metrics generation script
 python generate.py task=variable_tracking

@@ -19,7 +19,6 @@ from tqdm import tqdm
 import json
 import random
 import string
-from constants import TASKS
 import sys
 import tiktoken
 

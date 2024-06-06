@@ -14,21 +14,10 @@
 
 """
 Create a dataset jsonl file for QA task.
-
-python qa.py \
-    --save_dir=./ \
-    --save_name=qa \
-    --tokenizer_path=tokenizer.model \
-    --tokenizer_type=nemo \
-    --max_seq_length=4096 \
-    --tokens_to_generate=128 \
-    --num_samples=10 \
-    --template="Answer the question based on the given documents. Only give me the answer and do not output any other words.\n\nThe following are given documents.\n\n{context}\n\nAnswer the question based on the given documents. Only give me the answer and do not output any other words.\n\nQuestion: {query} Answer:"
 """
 import os
 import re
 import json
-import argparse
 from pathlib import Path
 from tqdm import tqdm
 import hydra
@@ -38,29 +27,8 @@ import numpy as np
 import sys
 import tiktoken
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")) 
-
-
-parser = argparse.ArgumentParser()
-# Basic Configurations
-parser.add_argument("--save_dir", type=Path, required=True, help='dataset folder to save dataset')
-parser.add_argument("--save_name", type=str, required=True, help='name of the save dataset jsonl file')
-parser.add_argument("--subset", type=str, default='validation', help='Options: validation or test')
-parser.add_argument("--max_seq_length", type=int, required=True, help='max sequence length including all input tokens and generated tokens.')
-parser.add_argument("--tokens_to_generate", type=int, required=True, help='expected generated token amount.')
-parser.add_argument("--num_samples", type=int, required=True, help='number of samples to generate')
-parser.add_argument("--pre_samples", type=int, default=0, help='number of samples are already generated')
-parser.add_argument("--random_seed", type=int, default=42)
-parser.add_argument("--template", type=str, required=True, help='prompt template')
-parser.add_argument("--remove_newline_tab", action='store_true', help='remove `\n` and `\t` in all strings.')
-
-# Complexity Configurations
-parser.add_argument("--dataset", type=str, required=True, help='dataset file')
-
 # Load Tokenizer by default use tiktoken as it is only used to compute length of synthetic sequence
 TOKENIZER = tiktoken.get_encoding("cl100k_base")
-
-
-
 # Read SQuAD QA dataset
 def read_squad(file):
     with open(file) as f:
