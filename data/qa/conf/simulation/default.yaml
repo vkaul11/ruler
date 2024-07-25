@@ -1,4 +1,4 @@
 # Default simulation parameters
-tokens_to_generate: 32  # Max number of tokens that need to be generated 
-num_samples: 10  # Number of samples to generate per run
-max_seq_length: 4096 # Length of the each generated data sample
+tokens_to_generate: 32  # Max number of tokens that need to be generated
+num_samples: 100 # Number of samples to generate per run
+max_seq_length: 64000 # Length of the each generated data sample
