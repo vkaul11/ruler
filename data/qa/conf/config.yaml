@@ -1,6 +1,6 @@
 #This file specifies the details of the parameters passed in qa.py task
 defaults:
-  - _self_   
+  - _self_
   - simulation: default
 save_dir: './'  # Default directory for saving outputs
 save_name: 'qa_squad'

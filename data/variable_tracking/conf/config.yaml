@@ -1,15 +1,15 @@
 #This file specifies the details of the parameters passed in niah.py task
 defaults:
-  - _self_   
+  - _self_
   - simulation: default
 save_dir: './'  # Default directory for saving outputs
 save_name: 'vt'
 subset: 'validation' #Used to generate validation.json
 #Template to generate synthetic variable tracing text
-template: "Memorize and track the chain(s) of variable assignment hidden in the following text.\n\n{context}\nQuestion: Find all variables that are assigned the value {query} in the text above.  Answer: According to the chain(s) of variable assignment in the text above, {num_v} variables are assgined the value {query}, they are: "
+template: "Memorize and track the chain(s) of variable assignment hidden in the following text.\n\n{context}\nQuestion: Find all variables that are assigned the value {query} in the text above."
 random_seed: 42  # Seed for random number generation ensures reproducibility
 remove_newline_tab: false
-#Specified the task complexity of the niah task 
+#Specified the task complexity of the niah task
 task_complexity:
   num_chains: 1
   num_hops: 4

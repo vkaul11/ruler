@@ -1,4 +1,4 @@
 input_file_path: '../data/variable_tracking/vt/validation.jsonl'
-output_file: 'predictions_niah_vt.jsonl'
-error_file: 'errors_niah_vt.jsonl'
+output_file: 'predictions_vt.jsonl'
+error_file: 'errors_vt.jsonl'
 metric_type: 'all'

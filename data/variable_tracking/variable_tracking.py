@@ -9,7 +9,6 @@ Modifications were made to simply and customize it for our use cases
 Create a dataset jsonl file for variable tracking.
 """
 
-import argparse
 import json
 import os
 import random
@@ -199,6 +198,7 @@ def _app(config: DictConfig):
 
     icl_example = sys_vartrack_w_noise_random(config, incremental=5)[0]
     write_jsons = sys_vartrack_w_noise_random(config, icl_example=icl_example)
+    print("Configuration:", OmegaConf.to_yaml(config))
 
     print(f"{save_file} save_file")
     with open(save_file, "w", encoding="utf-8") as f:
