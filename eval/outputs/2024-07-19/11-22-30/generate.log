@@ -1,0 +1,3 @@
+[2024-07-19 11:22:40,848][backoff][INFO] - Backing off chat_completion(...) for 0.2s (aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-07-19 11:22:41,279][backoff][INFO] - Backing off chat_completion(...) for 1.7s (aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-07-19 11:22:43,217][backoff][INFO] - Backing off chat_completion(...) for 1.1s (aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))

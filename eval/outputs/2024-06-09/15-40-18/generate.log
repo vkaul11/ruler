@@ -1,0 +1,4 @@
+[2024-06-09 15:40:22,565][backoff][INFO] - Backing off chat_completion(...) for 0.1s (aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url=URL('https://api.openai.com/v1/chat/completions'))
+[2024-06-09 15:40:22,754][backoff][INFO] - Backing off chat_completion(...) for 0.9s (aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url=URL('https://api.openai.com/v1/chat/completions'))
+[2024-06-09 15:40:23,742][backoff][INFO] - Backing off chat_completion(...) for 4.0s (aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url=URL('https://api.openai.com/v1/chat/completions'))
+[2024-06-09 15:40:27,808][backoff][INFO] - Backing off chat_completion(...) for 1.3s (aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url=URL('https://api.openai.com/v1/chat/completions'))

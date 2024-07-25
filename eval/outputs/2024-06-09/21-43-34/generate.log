@@ -1,0 +1,8 @@
+[2024-06-09 21:43:35,499][backoff][INFO] - Backing off chat_completion(...) for 0.6s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.anthropic.com/v1/complete'))
+[2024-06-09 21:43:36,177][backoff][INFO] - Backing off chat_completion(...) for 1.8s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.anthropic.com/v1/complete'))
+[2024-06-09 21:43:38,101][backoff][INFO] - Backing off chat_completion(...) for 3.6s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.anthropic.com/v1/complete'))
+[2024-06-09 21:43:41,779][backoff][INFO] - Backing off chat_completion(...) for 6.1s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.anthropic.com/v1/complete'))
+[2024-06-09 21:43:47,926][backoff][INFO] - Backing off chat_completion(...) for 1.6s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.anthropic.com/v1/complete'))
+[2024-06-09 21:43:49,656][backoff][INFO] - Backing off chat_completion(...) for 4.5s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.anthropic.com/v1/complete'))
+[2024-06-09 21:43:54,270][backoff][INFO] - Backing off chat_completion(...) for 54.5s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.anthropic.com/v1/complete'))
+[2024-06-09 21:44:48,957][backoff][ERROR] - Giving up chat_completion(...) after 8 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.anthropic.com/v1/complete'))

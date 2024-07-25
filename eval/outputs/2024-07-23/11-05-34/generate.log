@@ -1,0 +1,3 @@
+[2024-07-23 11:06:05,394][backoff][INFO] - Backing off chat_completion(...) for 0.5s (aiohttp.client_exceptions.ClientResponseError: 503, message='Service Unavailable', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-07-23 11:06:06,069][backoff][INFO] - Backing off chat_completion(...) for 0.9s (aiohttp.client_exceptions.ClientResponseError: 503, message='Service Unavailable', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-07-23 11:06:07,140][backoff][INFO] - Backing off chat_completion(...) for 2.3s (aiohttp.client_exceptions.ClientResponseError: 503, message='Service Unavailable', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))

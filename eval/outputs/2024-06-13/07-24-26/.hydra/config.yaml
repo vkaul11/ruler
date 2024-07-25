@@ -1,0 +1,12 @@
+model_id: gpt-4
+auth_key: Bearer sk-proj-T9g7W3ANnKixgNrzgL1IT3BlbkFJHOEmAZsQqlHgsm4dvfKL
+prediction_params:
+  max_tokens: 100
+  temperature: 0.0
+  stream: false
+url: https://api.openai.com/v1/chat/completions
+task:
+  input_file_path: ../data/variable_tracking/vt/validation.jsonl
+  output_file: predictions_vt.jsonl
+  error_file: errors_vt.jsonl
+  metric_type: all

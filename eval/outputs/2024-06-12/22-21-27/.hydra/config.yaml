@@ -1,0 +1,12 @@
+model_id: claude-3-opus-20240229
+api_key: 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
+prediction_params:
+  max_tokens: 100
+  temperature: 0.0
+  stream: false
+url: https://api.anthropic.com/v1/messages
+task:
+  input_file_path: ../data/niah/niah_multiquery/validation.jsonl
+  output_file: predictions_niah_multiquery.jsonl
+  error_file: errors_niah_multiquery.jsonl
+  metric_type: all

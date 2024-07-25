@@ -1,0 +1,5 @@
+[2024-06-10 10:51:58,146][backoff][INFO] - Backing off chat_completion(...) for 0.9s (aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url=URL('https://api.anthropic.com/v1/messages'))
+[2024-06-10 10:51:59,520][backoff][INFO] - Backing off chat_completion(...) for 0.1s (aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url=URL('https://api.anthropic.com/v1/messages'))
+[2024-06-10 10:52:00,188][backoff][INFO] - Backing off chat_completion(...) for 3.8s (aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url=URL('https://api.anthropic.com/v1/messages'))
+[2024-06-10 10:52:04,466][backoff][INFO] - Backing off chat_completion(...) for 0.3s (aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url=URL('https://api.anthropic.com/v1/messages'))
+[2024-06-10 10:52:05,262][backoff][INFO] - Backing off chat_completion(...) for 6.7s (aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url=URL('https://api.anthropic.com/v1/messages'))

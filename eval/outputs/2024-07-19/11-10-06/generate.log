@@ -1,0 +1,5 @@
+[2024-07-19 11:10:10,813][backoff][INFO] - Backing off chat_completion(...) for 0.4s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-07-19 11:10:12,244][backoff][INFO] - Backing off chat_completion(...) for 2.0s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-07-19 11:10:15,062][backoff][INFO] - Backing off chat_completion(...) for 1.5s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-07-19 11:10:17,410][backoff][INFO] - Backing off chat_completion(...) for 2.1s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-07-19 11:10:20,335][backoff][INFO] - Backing off chat_completion(...) for 14.7s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))

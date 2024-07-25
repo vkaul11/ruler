@@ -1,0 +1,24 @@
+save_dir: ./
+save_name: qa_squad
+subset: validation
+template: 'Answer the question based on the given documents. Only give me the answer
+  and do not output any other words.
+
+
+  The following are given documents.
+
+
+  {context}
+
+
+  Answer the question based on the given documents. Only give me the answer and do
+  not output any other words.
+
+
+  Question: {query} Answer:'
+random_seed: 42
+remove_newline_tab: false
+simulation:
+  tokens_to_generate: 32
+  num_samples: 100
+  max_seq_length: 50000

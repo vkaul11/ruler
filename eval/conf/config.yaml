@@ -1,0 +1,23 @@
+defaults:
+  - _self_
+  - task: niah # default task config
+#model_id: 'gpt-4'
+#model_id: 'claude-3-opus-20240229'
+model_id: 'accounts/fireworks/models/llama'
+auth_key: 'Bearer bjc'
+#auth_key: 'Bearer sk-proj-T9g7W3ANnKixgNrzgL1IT'
+#api_key: 'sk-ant-api03-9TDJFj5AWLtHsSy8KPE_ar3DNIF6hh'
+prediction_params:
+  max_tokens: 100
+  #top_p: 1
+  #top_k: 40
+  #presence_penalty: 0
+  #frequency_penalty: 0
+  temperature: 0.0
+  #stop: "<eot_id>"
+  #stop: "</s>"
+  #raw_output: True
+  #stream: False
+url: 'https://api.fireworks.ai/inference/v1/chat/completions'
+#url: 'https://api.openai.com/v1/chat/completions'
+#url: 'https://api.anthropic.com/v1/messages'

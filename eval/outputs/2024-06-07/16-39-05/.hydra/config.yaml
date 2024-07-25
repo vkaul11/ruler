@@ -1,0 +1,16 @@
+model_id: accounts/fireworks/models/phi-3-mini-128k-instruct
+auth_key: Bearer bjcMMPeS4fsot1VXiXcqr69XAWcWfBmkGjGZgBHBMf4SouN5
+prediction_params:
+  max_tokens: 1028
+  top_p: 1
+  presence_penalty: 0
+  frequency_penalty: 0
+  temperature: 0.0
+  stop: ''
+  stream: false
+url: https://api.fireworks.ai/inference/v1/chat/completions
+task:
+  input_file_path: ../data/qa/qa_squad/validation.jsonl
+  output_file: predictions_qa_squad.jsonl
+  error_file: errors_qa_squad.jsonl
+  metric_type: partial

@@ -1,0 +1,10 @@
+aiofiles==23.1.0  # Ensure to check the latest version
+aiohttp==3.8.4  # Ensure to check the latest version
+backoff==2.1.2  # Ensure to check the latest version
+hydra-core==1.2.0  # Ensure to check the latest version
+nltk==3.8.1  # Ensure to check the latest version
+numpy==1.25.1  # Ensure to check the latest version
+omegaconf==2.2.3  # Ensure to check the latest version
+tiktoken==0.3.0  # Ensure to check the latest version
+tqdm==4.65.0  # Ensure to check the latest version
+wonderwords==2.2.0  # Ensure to check the latest version

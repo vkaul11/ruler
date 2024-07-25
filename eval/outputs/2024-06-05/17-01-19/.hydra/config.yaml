@@ -1,0 +1,18 @@
+model_id: accounts/fireworks/models/llama-v3-70b-instruct-hf
+auth_key: Bearer bjcMMPeS4fsot1VXiXcqr69XAWcWfBmkGjGZgBHBMf4SouN5
+prediction_params:
+  max_tokens: 1028
+  top_p: 1
+  top_k: 40
+  presence_penalty: 0
+  frequency_penalty: 0
+  temperature: 0.0
+  stop: ''
+  raw_output: true
+  stream: false
+url: https://api.fireworks.ai/inference/v1/chat/completions
+task:
+  input_file_path: ../data/variable_tracking/vt/validation.jsonl
+  output_file: predictions_niah_vt.jsonl
+  error_file: errors_niah_vt.jsonl
+  metric_type: all

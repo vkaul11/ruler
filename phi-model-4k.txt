@@ -1,0 +1,411 @@
+Starting niah Task...
+Running niah Task...
+Configuration: save_dir: ./
+save_name: niah_multiquery
+subset: validation
+template: 'Some special magic {type_needle_v} are hidden within the following text.
+  Make sure to memorize it. I will quiz you about the {type_needle_v} afterwards.
+
+  {context}
+
+  What are all the special magic {type_needle_v} for {query} mentioned in the provided
+  text? The special magic {type_needle_v} for {query} mentioned in the provided text
+  are'
+random_seed: 42
+remove_newline_tab: false
+task_complexity:
+  num_needle_k: 4
+  num_needle_v: 1
+  num_needle_q: 4
+  type_haystack: essay
+  type_needle_k: words
+  type_needle_v: numbers
+simulation:
+  tokens_to_generate: 128
+  num_samples: 100
+  max_seq_length: 4096
+
+Max length 4096 | Current length 945 | Haystack: 500
+Max length 4096 | Current length 1516 | Haystack: 1000
+Max length 4096 | Current length 2121 | Haystack: 1500
+Max length 4096 | Current length 2744 | Haystack: 2000
+Max length 4096 | Current length 3316 | Haystack: 2500
+Max length 4096 | Current length 3888 | Haystack: 3000
+Max length 4096 | Current length 4526 | Haystack: 3500
+Num haystack: 3000
+niah_multiquery/validation.jsonl save_file
+base directory is /Users/vivekkaul/code/ruler_git
+Generating Metrics for niah...
+Processed index 0 with score: 100.0
+Processed index 4 with score: 100.0
+Processed index 5 with score: 100.0
+Processed index 3 with score: 100.0
+Processed index 1 with score: 100.0
+Processed index 2 with score: 100.0
+Processed index 9 with score: 100.0
+Processed index 10 with score: 100.0
+Processed index 8 with score: 100.0
+Processed index 6 with score: 100.0
+Processed index 11 with score: 100.0
+Processed index 7 with score: 100.0
+Processed index 12 with score: 100.0
+Processed index 14 with score: 100.0
+Processed index 13 with score: 100.0
+Processed index 16 with score: 100.0
+Processed index 18 with score: 100.0
+Processed index 17 with score: 100.0
+Processed index 15 with score: 100.0
+Processed index 19 with score: 100.0
+Processed index 20 with score: 100.0
+Processed index 21 with score: 100.0
+Processed index 23 with score: 100.0
+Processed index 22 with score: 100.0
+Processed index 24 with score: 100.0
+Processed index 27 with score: 100.0
+Processed index 25 with score: 100.0
+Processed index 26 with score: 100.0
+Processed index 29 with score: 100.0
+Processed index 32 with score: 100.0
+Processed index 34 with score: 100.0
+Processed index 35 with score: 100.0
+Processed index 30 with score: 100.0
+Processed index 28 with score: 100.0
+Processed index 33 with score: 100.0
+Processed index 31 with score: 100.0
+Processed index 39 with score: 100.0
+Processed index 38 with score: 100.0
+Processed index 40 with score: 100.0
+Processed index 41 with score: 100.0
+Processed index 36 with score: 100.0
+Processed index 37 with score: 100.0
+Processed index 45 with score: 100.0
+Processed index 44 with score: 100.0
+Processed index 43 with score: 100.0
+Processed index 42 with score: 100.0
+Processed index 46 with score: 100.0
+Processed index 47 with score: 100.0
+Processed index 50 with score: 100.0
+Processed index 53 with score: 100.0
+Processed index 48 with score: 100.0
+Processed index 51 with score: 100.0
+Processed index 52 with score: 100.0
+Processed index 49 with score: 100.0
+Processed index 54 with score: 100.0
+Processed index 56 with score: 100.0
+Processed index 59 with score: 100.0
+Processed index 57 with score: 100.0
+Processed index 55 with score: 100.0
+Processed index 58 with score: 100.0
+Processed index 60 with score: 100.0
+Processed index 62 with score: 100.0
+Processed index 61 with score: 100.0
+Processed index 63 with score: 100.0
+Processed index 68 with score: 100.0
+Processed index 69 with score: 100.0
+Processed index 66 with score: 100.0
+Processed index 64 with score: 100.0
+Processed index 65 with score: 100.0
+Processed index 67 with score: 100.0
+Processed index 73 with score: 100.0
+Processed index 71 with score: 100.0
+Processed index 75 with score: 100.0
+Processed index 70 with score: 100.0
+Processed index 78 with score: 100.0
+Processed index 79 with score: 100.0
+Processed index 76 with score: 100.0
+Processed index 74 with score: 100.0
+Processed index 72 with score: 100.0
+Processed index 77 with score: 100.0
+Processed index 80 with score: 100.0
+Processed index 84 with score: 100.0
+Processed index 85 with score: 100.0
+Processed index 82 with score: 100.0
+Processed index 83 with score: 100.0
+Processed index 81 with score: 100.0
+Processed index 86 with score: 100.0
+Processed index 91 with score: 100.0
+Processed index 87 with score: 100.0
+Processed index 88 with score: 100.0
+Processed index 89 with score: 100.0
+Processed index 90 with score: 100.0
+Processed index 93 with score: 100.0
+Processed index 92 with score: 100.0
+Processed index 95 with score: 100.0
+Processed index 94 with score: 100.0
+Processed index 96 with score: 100.0
+Processed index 98 with score: 100.0
+Processed index 97 with score: 100.0
+Processed index 99 with score: 100.0
+Average Metric Score: 100.0
+Current directory: /Users/vivekkaul/code/ruler_git
+niah Task completed.
+-----------------------------
+Starting variable_tracking Task...
+Running variable_tracking Task...
+Max length 4096 | Current length 314 | Noises: 5
+Max length 4096 | Current length 416 | Noises: 10
+Max length 4096 | Current length 539 | Noises: 15
+Max length 4096 | Current length 653 | Noises: 20
+Max length 4096 | Current length 773 | Noises: 25
+Max length 4096 | Current length 894 | Noises: 30
+Max length 4096 | Current length 1010 | Noises: 35
+Max length 4096 | Current length 1130 | Noises: 40
+Max length 4096 | Current length 1253 | Noises: 45
+Max length 4096 | Current length 1378 | Noises: 50
+Max length 4096 | Current length 1493 | Noises: 55
+Max length 4096 | Current length 1607 | Noises: 60
+Max length 4096 | Current length 1734 | Noises: 65
+Max length 4096 | Current length 1853 | Noises: 70
+Max length 4096 | Current length 1977 | Noises: 75
+Max length 4096 | Current length 2101 | Noises: 80
+Max length 4096 | Current length 2213 | Noises: 85
+Max length 4096 | Current length 2333 | Noises: 90
+Max length 4096 | Current length 2459 | Noises: 95
+Max length 4096 | Current length 2573 | Noises: 100
+Max length 4096 | Current length 2690 | Noises: 105
+Max length 4096 | Current length 2813 | Noises: 110
+Max length 4096 | Current length 2934 | Noises: 115
+Max length 4096 | Current length 3056 | Noises: 120
+Max length 4096 | Current length 3173 | Noises: 125
+Max length 4096 | Current length 3297 | Noises: 130
+Max length 4096 | Current length 3412 | Noises: 135
+Max length 4096 | Current length 3539 | Noises: 140
+Max length 4096 | Current length 3655 | Noises: 145
+Max length 4096 | Current length 3775 | Noises: 150
+Max length 4096 | Current length 3896 | Noises: 155
+Max length 4096 | Current length 4011 | Noises: 160
+Max length 4096 | Current length 4136 | Noises: 165
+Num noises: 160
+Max length 4096 | Current length 415 | Noises: 10
+Max length 4096 | Current length 653 | Noises: 20
+Max length 4096 | Current length 893 | Noises: 30
+Max length 4096 | Current length 1134 | Noises: 40
+Max length 4096 | Current length 1373 | Noises: 50
+Max length 4096 | Current length 1616 | Noises: 60
+Max length 4096 | Current length 1851 | Noises: 70
+Max length 4096 | Current length 2094 | Noises: 80
+Max length 4096 | Current length 2333 | Noises: 90
+Max length 4096 | Current length 2573 | Noises: 100
+Max length 4096 | Current length 2812 | Noises: 110
+Max length 4096 | Current length 3053 | Noises: 120
+Max length 4096 | Current length 3299 | Noises: 130
+Max length 4096 | Current length 3538 | Noises: 140
+Max length 4096 | Current length 3775 | Noises: 150
+Max length 4096 | Current length 4013 | Noises: 160
+Max length 4096 | Current length 4253 | Noises: 170
+Num noises: 160
+Configuration: save_dir: ./
+save_name: vt
+subset: validation
+template: 'Memorize and track the chain(s) of variable assignment hidden in the following
+  text.
+
+
+  {context}
+
+  Question: Find all variables that are assigned the value {query} in the text above.  Answer:
+  According to the chain(s) of variable assignment in the text above, {num_v} variables
+  are assgined the value {query}, they are: '
+random_seed: 42
+remove_newline_tab: false
+task_complexity:
+  num_chains: 1
+  num_hops: 4
+  add_fewshot: false
+simulation:
+  tokens_to_generate: 30
+  num_samples: 100
+  max_seq_length: 4096
+
+vt/validation.jsonl save_file
+base directory is /Users/vivekkaul/code/ruler_git
+Generating Metrics for variable_tracking...
+Processed index 0 with score: 100.0
+Processed index 5 with score: 100.0
+Processed index 3 with score: 100.0
+Processed index 2 with score: 100.0
+Processed index 1 with score: 100.0
+Processed index 4 with score: 100.0
+Processed index 6 with score: 100.0
+Processed index 7 with score: 100.0
+Processed index 8 with score: 100.0
+Processed index 9 with score: 100.0
+Processed index 12 with score: 100.0
+Processed index 13 with score: 100.0
+Processed index 14 with score: 100.0
+Processed index 15 with score: 100.0
+Processed index 16 with score: 100.0
+Processed index 19 with score: 100.0
+Processed index 11 with score: 100.0
+Processed index 20 with score: 100.0
+Processed index 10 with score: 100.0
+Processed index 22 with score: 100.0
+Processed index 23 with score: 100.0
+Processed index 24 with score: 100.0
+Processed index 17 with score: 100.0
+Processed index 25 with score: 100.0
+Processed index 27 with score: 100.0
+Processed index 18 with score: 100.0
+Processed index 21 with score: 100.0
+Processed index 28 with score: 100.0
+Processed index 31 with score: 100.0
+Processed index 29 with score: 100.0
+Processed index 32 with score: 100.0
+Processed index 26 with score: 100.0
+Processed index 30 with score: 100.0
+Processed index 35 with score: 100.0
+Processed index 33 with score: 100.0
+Processed index 36 with score: 100.0
+Processed index 34 with score: 100.0
+Processed index 38 with score: 100.0
+Processed index 41 with score: 100.0
+Processed index 37 with score: 100.0
+Processed index 39 with score: 100.0
+Processed index 40 with score: 100.0
+Processed index 44 with score: 100.0
+Processed index 42 with score: 100.0
+Processed index 43 with score: 100.0
+Processed index 46 with score: 100.0
+Processed index 48 with score: 100.0
+Processed index 47 with score: 100.0
+Processed index 45 with score: 100.0
+Processed index 50 with score: 100.0
+Processed index 49 with score: 100.0
+Processed index 56 with score: 100.0
+Processed index 53 with score: 100.0
+Processed index 51 with score: 100.0
+Processed index 52 with score: 100.0
+Processed index 55 with score: 100.0
+Processed index 58 with score: 100.0
+Processed index 54 with score: 100.0
+Processed index 57 with score: 100.0
+Processed index 59 with score: 100.0
+Processed index 63 with score: 100.0
+Processed index 60 with score: 100.0
+Processed index 61 with score: 100.0
+Processed index 68 with score: 100.0
+Processed index 62 with score: 100.0
+Processed index 66 with score: 100.0
+Processed index 64 with score: 100.0
+Processed index 67 with score: 100.0
+Processed index 69 with score: 100.0
+Processed index 65 with score: 100.0
+Processed index 72 with score: 100.0
+Processed index 71 with score: 100.0
+Processed index 70 with score: 100.0
+Processed index 75 with score: 100.0
+Processed index 73 with score: 100.0
+Processed index 74 with score: 100.0
+Processed index 78 with score: 100.0
+Processed index 77 with score: 100.0
+Processed index 76 with score: 100.0
+Processed index 81 with score: 100.0
+Processed index 83 with score: 100.0
+Processed index 79 with score: 100.0
+Processed index 85 with score: 100.0
+Processed index 80 with score: 100.0
+Processed index 87 with score: 100.0
+Processed index 88 with score: 100.0
+Processed index 82 with score: 100.0
+Processed index 89 with score: 100.0
+Processed index 84 with score: 100.0
+Processed index 90 with score: 100.0
+Processed index 92 with score: 100.0
+Processed index 93 with score: 100.0
+Processed index 86 with score: 100.0
+Processed index 97 with score: 100.0
+Processed index 91 with score: 100.0
+Processed index 96 with score: 100.0
+Processed index 94 with score: 100.0
+Processed index 99 with score: 100.0
+Processed index 95 with score: 100.0
+Processed index 98 with score: 100.0
+Average Metric Score: 100.0
+Current directory: /Users/vivekkaul/code/ruler_git
+variable_tracking Task completed.
+-----------------------------
+Starting qa Task...
+Running qa Task...
+Max length 128000 | Current length 1667 | Docs: 10
+Max length 128000 | Current length 3016 | Docs: 20
+Max length 128000 | Current length 4496 | Docs: 30
+Max length 128000 | Current length 5916 | Docs: 40
+Max length 128000 | Current length 7363 | Docs: 50
+Max length 128000 | Current length 9199 | Docs: 60
+Max length 128000 | Current length 10907 | Docs: 70
+Max length 128000 | Current length 12500 | Docs: 80
+Max length 128000 | Current length 14316 | Docs: 90
+Max length 128000 | Current length 16471 | Docs: 100
+Max length 128000 | Current length 17333 | Docs: 110
+Max length 128000 | Current length 19619 | Docs: 120
+Max length 128000 | Current length 20695 | Docs: 130
+Max length 128000 | Current length 22352 | Docs: 140
+Max length 128000 | Current length 24365 | Docs: 150
+Max length 128000 | Current length 25688 | Docs: 160
+Max length 128000 | Current length 28859 | Docs: 170
+Max length 128000 | Current length 28705 | Docs: 180
+Max length 128000 | Current length 31098 | Docs: 190
+Max length 128000 | Current length 31514 | Docs: 200
+Max length 128000 | Current length 35286 | Docs: 210
+Max length 128000 | Current length 36907 | Docs: 220
+Max length 128000 | Current length 37180 | Docs: 230
+Max length 128000 | Current length 39344 | Docs: 240
+Max length 128000 | Current length 42412 | Docs: 250
+Max length 128000 | Current length 42175 | Docs: 260
+Max length 128000 | Current length 44530 | Docs: 270
+Max length 128000 | Current length 46277 | Docs: 280
+Max length 128000 | Current length 48703 | Docs: 290
+Max length 128000 | Current length 49116 | Docs: 300
+Max length 128000 | Current length 52607 | Docs: 310
+Max length 128000 | Current length 51929 | Docs: 320
+Max length 128000 | Current length 57275 | Docs: 330
+Max length 128000 | Current length 56676 | Docs: 340
+Max length 128000 | Current length 59400 | Docs: 350
+Max length 128000 | Current length 61646 | Docs: 360
+Max length 128000 | Current length 61630 | Docs: 370
+Max length 128000 | Current length 64276 | Docs: 380
+Max length 128000 | Current length 65096 | Docs: 390
+Max length 128000 | Current length 66649 | Docs: 400
+Max length 128000 | Current length 65992 | Docs: 410
+Max length 128000 | Current length 71134 | Docs: 420
+Max length 128000 | Current length 72177 | Docs: 430
+Max length 128000 | Current length 75356 | Docs: 440
+Max length 128000 | Current length 75980 | Docs: 450
+Max length 128000 | Current length 76453 | Docs: 460
+Max length 128000 | Current length 80197 | Docs: 470
+Max length 128000 | Current length 78568 | Docs: 480
+Max length 128000 | Current length 83890 | Docs: 490
+Max length 128000 | Current length 82241 | Docs: 500
+Max length 128000 | Current length 85826 | Docs: 510
+Max length 128000 | Current length 87833 | Docs: 520
+Max length 128000 | Current length 89912 | Docs: 530
+Max length 128000 | Current length 92705 | Docs: 540
+Max length 128000 | Current length 94000 | Docs: 550
+Max length 128000 | Current length 93176 | Docs: 560
+Max length 128000 | Current length 93396 | Docs: 570
+Max length 128000 | Current length 94484 | Docs: 580
+Max length 128000 | Current length 99415 | Docs: 590
+Max length 128000 | Current length 101112 | Docs: 600
+Max length 128000 | Current length 104153 | Docs: 610
+Max length 128000 | Current length 105336 | Docs: 620
+Max length 128000 | Current length 106709 | Docs: 630
+Max length 128000 | Current length 109063 | Docs: 640
+Max length 128000 | Current length 109514 | Docs: 650
+Max length 128000 | Current length 113453 | Docs: 660
+Max length 128000 | Current length 115642 | Docs: 670
+Max length 128000 | Current length 114541 | Docs: 680
+Max length 128000 | Current length 116947 | Docs: 690
+Max length 128000 | Current length 118378 | Docs: 700
+Max length 128000 | Current length 119168 | Docs: 710
+Max length 128000 | Current length 122063 | Docs: 720
+Max length 128000 | Current length 126147 | Docs: 730
+Max length 128000 | Current length 129082 | Docs: 740
+Number of documents: 730
+qa_squad/validation.jsonl save_file
+base directory is /Users/vivekkaul/code/ruler_git
+Generating Metrics for qa...
+Failed to generate metrics for qa
+Current directory: /Users/vivekkaul/code/ruler_git
+qa Task completed.
+-----------------------------
+All tasks have been completed.

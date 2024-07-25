@@ -1,0 +1,1 @@
+[2024-06-12 22:05:27,410][backoff][INFO] - Backing off chat_completion(...) for 0.7s (aiohttp.client_exceptions.ClientOSError: [Errno 1] [SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2578))

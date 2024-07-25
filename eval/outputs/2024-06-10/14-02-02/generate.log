@@ -1,0 +1,5 @@
+[2024-06-10 14:02:08,775][backoff][INFO] - Backing off chat_completion(...) for 0.3s (aiohttp.client_exceptions.ClientResponseError: 401, message='Unauthorized', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-06-10 14:02:09,170][backoff][INFO] - Backing off chat_completion(...) for 0.1s (aiohttp.client_exceptions.ClientResponseError: 401, message='Unauthorized', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-06-10 14:02:09,343][backoff][INFO] - Backing off chat_completion(...) for 0.2s (aiohttp.client_exceptions.ClientResponseError: 401, message='Unauthorized', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-06-10 14:02:09,682][backoff][INFO] - Backing off chat_completion(...) for 0.3s (aiohttp.client_exceptions.ClientResponseError: 401, message='Unauthorized', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
+[2024-06-10 14:02:10,059][backoff][INFO] - Backing off chat_completion(...) for 12.6s (aiohttp.client_exceptions.ClientResponseError: 401, message='Unauthorized', url=URL('https://api.fireworks.ai/inference/v1/chat/completions'))
