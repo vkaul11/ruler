@@ -87,9 +87,30 @@ def string_match_all(preds: list[str], refs: list[list[str]]) -> float:
     return round(score, 2)
 
 
+def string_match_exact(preds: list[str], refs: list[list[str]]) -> float:
+    score = (
+        sum(
+            [
+                max(
+                    [
+                        1.0 if pred.strip().lower() == r.strip().lower() else 0.0
+                        for r in ref
+                    ]
+                )
+                for pred, ref in zip(preds, refs)
+            ]
+        )
+        / len(preds)
+        * 100
+    )
+    return round(score, 2)
+
+
 def get_metric_function(metric_type):
     if metric_type == "partial":
         return string_match_part
+    elif metric_type == "exact":
+        return string_match_exact
     else:
         return string_match_all
 

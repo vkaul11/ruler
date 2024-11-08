@@ -1,0 +1,16 @@
+defaults:
+  - _self_
+
+save_dir: './'
+save_name: 'hashhop'
+subset: 'validation'
+
+random_seed: 42
+remove_newline_tab: false
+
+# Task-specific parameters
+num_samples: 100
+num_of_tokens: [10000, 20000]
+num_of_hops: [10, 12, 18, 20, 24]
+hash_pair_str_length: [8, 10, 12, 16]
+output_path: './hashhop/validation.jsonl'

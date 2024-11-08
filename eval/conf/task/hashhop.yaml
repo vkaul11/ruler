@@ -1,0 +1,5 @@
+input_file_path: '../data/hashhop/hashhop/validation.jsonl'
+output_file: '../data/hashhop/hashhop/hashhop_eval_results.jsonl'
+error_file: '../data/hashhop/hashhop/hashhop_eval_errors.jsonl'
+metric_type: 'exact'
+
